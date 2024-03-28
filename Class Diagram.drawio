@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-28T06:07:21.685Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="ov1FZ91EyRh21nERKYKz" version="24.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-28T06:22:36.271Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="6YPeBUZLLBd7ZkIwWXoK" version="24.2.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1588" dy="1993" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="756" dy="1561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -33,19 +33,22 @@
           <mxGeometry y="210" width="330" height="110" as="geometry" />
         </mxCell>
         <mxCell id="emHu-cfzv6c4kefyn8a2-10" value="Rider" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="470" y="260" width="170" height="100" as="geometry">
+          <mxGeometry x="480" y="180" width="170" height="220" as="geometry">
             <mxRectangle x="650" y="250" width="80" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="emHu-cfzv6c4kefyn8a2-11" value="- name: String&lt;div&gt;- teamID: int&lt;/div&gt;&lt;div&gt;- yearOfBirth: int&lt;/div&gt;&lt;div&gt;- riderID: int&lt;/div&gt;&lt;div&gt;- &lt;u&gt;numberOfRiders=0&lt;/u&gt;: int&lt;/div&gt;&lt;div&gt;- &lt;u&gt;ridersList&lt;/u&gt;: ArrayList&lt;/div&gt;&lt;div&gt;# &lt;u&gt;ridersInTeam&lt;/u&gt;: ArrayList&lt;/div&gt;&lt;div&gt;# availableRiderIDs: ArrayList&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="emHu-cfzv6c4kefyn8a2-10">
+          <mxGeometry y="20" width="170" height="120" as="geometry" />
+        </mxCell>
         <mxCell id="emHu-cfzv6c4kefyn8a2-12" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="emHu-cfzv6c4kefyn8a2-10">
-          <mxGeometry y="20" width="170" height="10" as="geometry" />
+          <mxGeometry y="140" width="170" height="10" as="geometry" />
         </mxCell>
         <mxCell id="emHu-cfzv6c4kefyn8a2-13" value="+ Rider(int,String,int)&lt;div&gt;+ getRiderID(): int&lt;/div&gt;&lt;div&gt;+ &lt;u&gt;getTeamRidersList(int)&lt;/u&gt;: int[]&lt;/div&gt;&lt;div&gt;+ &lt;u&gt;removeRider(int)&lt;/u&gt;: void&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="emHu-cfzv6c4kefyn8a2-10">
-          <mxGeometry y="30" width="170" height="70" as="geometry" />
+          <mxGeometry y="150" width="170" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="emHu-cfzv6c4kefyn8a2-14" value="Results" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" collapsed="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="650" y="540" width="80" height="30" as="geometry">
-            <mxRectangle x="140" y="110" width="170" height="100" as="alternateBounds" />
+        <mxCell id="emHu-cfzv6c4kefyn8a2-14" value="Results" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="480" y="460" width="170" height="100" as="geometry">
+            <mxRectangle x="525" y="490" width="80" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="emHu-cfzv6c4kefyn8a2-15" value="&lt;u&gt;arrayIndex =0:&lt;/u&gt;&amp;nbsp;int&lt;div&gt;&lt;u&gt;numberOfResults=0&lt;/u&gt;: int&lt;/div&gt;&lt;div&gt;&lt;u&gt;riderResultList&lt;/u&gt;: ArrayList&lt;/div&gt;&lt;div&gt;&lt;u&gt;ridersInStage&lt;/u&gt;: ArrayList&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="emHu-cfzv6c4kefyn8a2-14">
@@ -54,19 +57,19 @@
         <mxCell id="emHu-cfzv6c4kefyn8a2-16" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="emHu-cfzv6c4kefyn8a2-14">
           <mxGeometry y="90" width="170" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="emHu-cfzv6c4kefyn8a2-18" value="registerResult" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" collapsed="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="550" y="630" width="80" height="30" as="geometry">
-            <mxRectangle x="240" y="90" width="380" height="130" as="alternateBounds" />
+        <mxCell id="emHu-cfzv6c4kefyn8a2-18" value="registerResult" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="480" y="620" width="210" height="130" as="geometry">
+            <mxRectangle x="480" y="620" width="80" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="emHu-cfzv6c4kefyn8a2-19" value="- stageID: int&lt;div&gt;- riderID: int&lt;/div&gt;&lt;div&gt;- checkPointTimes: LocalTime[]&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="emHu-cfzv6c4kefyn8a2-18">
-          <mxGeometry y="20" width="380" height="50" as="geometry" />
+          <mxGeometry y="20" width="210" height="50" as="geometry" />
         </mxCell>
         <mxCell id="emHu-cfzv6c4kefyn8a2-20" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="emHu-cfzv6c4kefyn8a2-18">
-          <mxGeometry y="70" width="380" height="10" as="geometry" />
+          <mxGeometry y="70" width="210" height="10" as="geometry" />
         </mxCell>
         <mxCell id="emHu-cfzv6c4kefyn8a2-21" value="+registerResult(int,int,LocalTime[])&lt;div&gt;+ getRiderResult(int,int): LocalTime[]&lt;/div&gt;&lt;div&gt;+ &lt;u&gt;removeRiderResults(int,int)&lt;/u&gt;: void&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="emHu-cfzv6c4kefyn8a2-18">
-          <mxGeometry y="80" width="380" height="50" as="geometry" />
+          <mxGeometry y="80" width="210" height="50" as="geometry" />
         </mxCell>
         <mxCell id="emHu-cfzv6c4kefyn8a2-22" value="Race" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="80" y="30" width="170" height="200" as="geometry">
@@ -174,8 +177,46 @@
             <mxPoint x="-7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="emHu-cfzv6c4kefyn8a2-11" value="- name: String&lt;div&gt;- teamID: int&lt;/div&gt;&lt;div&gt;- yearOfBirth: int&lt;/div&gt;&lt;div&gt;- riderID: int&lt;/div&gt;&lt;div&gt;- &lt;u&gt;numberOfRiders=0&lt;/u&gt;: int&lt;/div&gt;&lt;div&gt;- &lt;u&gt;ridersList&lt;/u&gt;: ArrayList&lt;/div&gt;&lt;div&gt;# &lt;u&gt;ridersInTeam&lt;/u&gt;: ArrayList&lt;/div&gt;&lt;div&gt;# availableRiderIDs: ArrayList&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="480" y="220" width="170" height="120" as="geometry" />
+        <mxCell id="emHu-cfzv6c4kefyn8a2-56" value="" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.465;entryY=1.022;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="emHu-cfzv6c4kefyn8a2-10" target="emHu-cfzv6c4kefyn8a2-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="440" y="210" as="sourcePoint" />
+            <mxPoint x="600" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="emHu-cfzv6c4kefyn8a2-57" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="emHu-cfzv6c4kefyn8a2-56">
+          <mxGeometry x="0.3856" y="-2" relative="1" as="geometry">
+            <mxPoint x="8" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="emHu-cfzv6c4kefyn8a2-58" value="0..*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="emHu-cfzv6c4kefyn8a2-56">
+          <mxGeometry x="-0.7019" y="3" relative="1" as="geometry">
+            <mxPoint x="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="emHu-cfzv6c4kefyn8a2-59" value="" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.478;entryY=1.059;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="emHu-cfzv6c4kefyn8a2-14" target="emHu-cfzv6c4kefyn8a2-13">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="440" y="430" as="sourcePoint" />
+            <mxPoint x="600" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="emHu-cfzv6c4kefyn8a2-60" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="emHu-cfzv6c4kefyn8a2-59">
+          <mxGeometry x="0.2601" y="6" relative="1" as="geometry">
+            <mxPoint x="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="emHu-cfzv6c4kefyn8a2-61" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="emHu-cfzv6c4kefyn8a2-59">
+          <mxGeometry x="-0.5617" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="emHu-cfzv6c4kefyn8a2-62" value="cycling" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="260" y="-260" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="emHu-cfzv6c4kefyn8a2-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="emHu-cfzv6c4kefyn8a2-22" target="emHu-cfzv6c4kefyn8a2-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="emHu-cfzv6c4kefyn8a2-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.658;entryY=1.015;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="emHu-cfzv6c4kefyn8a2-1" target="emHu-cfzv6c4kefyn8a2-62">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
